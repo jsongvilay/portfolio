@@ -326,17 +326,20 @@ article#main-col-contact {
 }
 
 @media (max-width: 768px) {
+  .container,
   header #branding,
   header nav,
   header nav li,
-  #boxes .box,
   article#main-col,
   aside#sidebar,
-  aside#about-sidebar,
-  aside#contact-sidebar {
+  aside#about-sidebar {
     float: none;
     text-align: center;
     width: 100%;
+  }
+
+  header h1 {
+    padding: 20px;
   }
 
   header {
@@ -344,7 +347,45 @@ article#main-col-contact {
   }
 
   #showcase h1 {
+    font-size: 30px;
+    line-height: 1.6em;
     margin-top: 40px;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 85%;
+  }
+
+  .nodes,
+  .nand,
+  .binary,
+  .scales,
+  .sdsu,
+  .apsa,
+  .apsa-two,
+  .aws {
+    text-align: left;
+  }
+
+  #main-col-contact {
+    text-align: center;
+    padding-left: 17%;
+  }
+
+  aside#contact-sidebar {
+    padding-left: 20%;
+    margin-top: -40%;
+    width: 100%;
+  }
+
+  #pdf-container {
+    width: 65%;
   }
 }
 
@@ -764,4 +805,3 @@ footer .fa-file-pdf-o {
   color: #003366;
   opacity: 0.7;
 }
-
