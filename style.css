@@ -352,14 +352,29 @@ article#main-col-contact {
     margin-top: 40px;
   }
 
+  #showcase p {
+    padding-bottom: 10px;
+    width: 90%;
+    display: inline-block;
+  }
+
+  #about#main-col {
+    width: 80%;
+  }
+
   nav li {
-    padding: 10px;
+    margin-right: 10px;
+    padding: 7px;
   }
 
   #boxes .box {
     float: none;
-    text-align: center;
-    width: 85%;
+    width: 75%;
+  }
+
+  #boxes .double-line {
+    width: 80%;
+    padding-left: 24px;
   }
 
   .nodes,
@@ -378,6 +393,10 @@ article#main-col-contact {
     padding-left: 17%;
   }
 
+  #resume {
+    line-height: 1.6em;
+  }
+
   aside#contact-sidebar {
     padding-left: 20%;
     margin-top: -40%;
@@ -385,7 +404,23 @@ article#main-col-contact {
   }
 
   #pdf-container {
-    width: 65%;
+    width: 53%;
+  }
+
+  footer {
+    margin-top: 20px;
+    color: #ffffff;
+    background: #a6c1ee;
+    text-align: center;
+  }
+
+  footer ul{
+    padding: 10px;
+  }
+
+  footer li {
+    margin: 10px;
+    display: inline;
   }
 }
 
