@@ -117,6 +117,23 @@ a:visited {
   text-decoration: none;
 }
 
+.p-link a {
+  color: #a6c1ee;
+}
+
+.p-link a:hover {
+  color: #003366;
+  font-weight: bold;
+}
+
+.p-link a:link {
+  text-decoration: none;
+}
+
+.p-link a:visited {
+  text-decoration: none;
+}
+
 /*Showcase*/
 #showcase {
   min-height: 400px;
@@ -330,7 +347,7 @@ article#main-col-contact {
     display: none;
   }
 
-  .mobile-icon-container{
+  .mobile-icon-container {
     margin-top: -2%;
     float: right;
   }
@@ -357,7 +374,7 @@ article#main-col-contact {
     padding-bottom: 5%;
   }
 
-  header nav{
+  header nav {
     margin-right: 10%;
   }
 
@@ -891,7 +908,6 @@ footer .fa-file-pdf-o {
   margin-right: 1%;
 }
 
-.mobile-icon-container{
+.mobile-icon-container {
   line-height: 3em;
 }
-
