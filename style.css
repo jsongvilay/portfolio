@@ -606,8 +606,8 @@ article#main-col-contact {
 }
 
 .accordion#gh:hover {
-  background-color: #211F1F;
-  box-shadow: 0 5px 30px #9CDAF1;
+  background-color: #211f1f;
+  box-shadow: 0 5px 30px #9cdaf1;
 }
 
 .accordion#gh:after {
