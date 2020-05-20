@@ -82,11 +82,11 @@ header li {
   padding: 0 20px 0 20px;
 }
 
-header #branding {
+header #top {
   float: left;
 }
 
-header #branding h1 {
+header #top h1 {
   margin: 10px;
   font-family: "Jost", sans-serif;
   font-size: 30px;
@@ -355,7 +355,7 @@ article#main-col-contact {
 
 @media (max-width: 768px) {
   .container,
-  header #branding,
+  header #top,
   header nav,
   header nav li,
   article#main-col,
@@ -364,6 +364,11 @@ article#main-col-contact {
     float: none;
     text-align: center;
     width: 100%;
+  }
+
+  #showcase .plane {
+    width: 15%;
+    padding-top: 5%;
   }
 
   header h1 {
@@ -462,7 +467,7 @@ article#main-col-contact {
   }
 
   aside#contact-sidebar {
-    margin-top: -60%;
+    margin-top: -40%;
     margin-bottom: 10%;
     width: 100%;
   }
@@ -470,6 +475,10 @@ article#main-col-contact {
   #pdf-container {
     display: none;
     width: 57%;
+  }
+
+  #main-col-contact .plane {
+    display: none;
   }
 
   footer {
@@ -904,14 +913,7 @@ footer .fa-file-pdf-o {
   margin-left: 50px;
   margin-bottom: -30px;
 }
-.arrow#footer-arrow {
-  border: solid #003366;
-  border-width: 0 7px 7px 0;
-  display: inline-block;
-  padding: 7px;
-  margin-top: 80px;
-  margin-left: 568px;
-}
+
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
@@ -929,4 +931,36 @@ footer .fa-file-pdf-o {
 
 .mobile-icon-container {
   line-height: 3em;
+}
+
+.plane {
+  width: 5%;
+  padding-top: 5%;
+}
+
+.plane:hover {
+  opacity: 0.7;
+}
+
+.plane-hover:hover {
+  opacity: 0.7;
+}
+
+#footer-plane {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 74%;
+}
+
+#footer-plane .plane {
+  width: 20%;
+}
+
+.subtitle {
+  display: block;
+  font-size: 15px;
+}
+
+.subtitle a:visited {
+  color: #003366;
 }
