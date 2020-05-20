@@ -964,3 +964,8 @@ footer .fa-file-pdf-o {
 .subtitle a:visited {
   color: #003366;
 }
+
+.apsa-gif {
+  display: block;
+  width: 100%;
+}
