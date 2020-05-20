@@ -967,5 +967,6 @@ footer .fa-file-pdf-o {
 
 .apsa-gif {
   display: block;
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
 }
