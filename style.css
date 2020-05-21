@@ -55,8 +55,8 @@ header ul {
   padding: 15px;
   background: #a6c1ee;
   color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 /*Header*/
@@ -201,17 +201,13 @@ footer {
 
 footer li {
   display: inline;
-  padding: 0 20px 0 20px;
+  padding-right: 3%
 }
 
 footer a {
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
-}
-
-footer .current a {
-  font-weight: bold;
 }
 
 footer a:hover {
@@ -222,7 +218,7 @@ footer a:hover {
 aside#about-sidebar {
   float: right;
   width: 38%;
-  margin-top: 80px;
+  margin-top: 7%;
 }
 
 aside#contact-sidebar {
@@ -296,7 +292,6 @@ a.list-link {
   color: #ffffff;
 }
 
-/*Main-col*/
 article#main-col {
   float: left;
   width: 60%;
@@ -403,6 +398,7 @@ article#main-col-contact {
 
   #about p {
     margin: 5%;
+    text-align: left;
   }
 
   #about .picture-container {
@@ -428,9 +424,17 @@ article#main-col-contact {
     margin-top: -5%;
   }
 
+  .page-title {
+    line-height: 1.2em;
+  }
+
   #main-col-contact {
-    text-align: center;
+    text-align: left;
     padding-left: 17%;
+  }
+
+  #contact-container{
+    padding-top: 10%;
   }
 
   aside#contact-sidebar {
@@ -475,8 +479,7 @@ article#main-col-contact {
 }
 
 .picture-container {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  padding-top: 3%;
 }
 
 .page-title {
@@ -490,7 +493,7 @@ article#main-col-contact {
 }
 
 .spacer {
-  padding: 70px;
+  padding: 5%;
 }
 
 #contact-spacer {
@@ -913,11 +916,6 @@ footer .fa-file-pdf-o {
 
   #contact-container {
     padding-left: 0%;
-  }
-
-  #contact #main-col-contact {
-    width: 50%;
-    margin-left: 8%;
   }
 
   .about-dark {
