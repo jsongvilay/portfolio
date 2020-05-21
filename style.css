@@ -145,6 +145,7 @@ a:visited {
   font-size: 40px;
   margin-bottom: 10px;
   font-family: "Jost", sans-serif;
+  text-align: center;
 }
 
 #showcase p {
@@ -153,23 +154,24 @@ a:visited {
   padding-bottom: 10px;
   width: 500px;
   display: inline-block;
+  text-align: center;
 }
 
 /*Boxes*/
 #boxes {
-  margin-top: 20px;
-  padding-left: 54px;
+  margin-top: 1%;
+  padding-left: 4%;
 }
 
 #boxes .box {
   float: left;
   width: 30%;
-  padding: 10px;
+  padding-right: 2%;
   text-align: center;
 }
 
 #boxes .double-line {
-  padding-left: 54px;
+  padding-left: 15%;
   width: 70%;
   text-align: center;
 }
@@ -341,6 +343,7 @@ article#main-col-contact {
   width: 65%;
 }
 
+/* disable mobile styling for larger screens */
 @media screen and (min-width: 768px) {
   .mobile-container {
     display: none;
@@ -352,6 +355,7 @@ article#main-col-contact {
   }
 }
 
+/* mobile styling */
 @media (max-width: 768px) {
   .container,
   header #top,
@@ -880,10 +884,16 @@ footer .fa-file-pdf-o {
   opacity: 0.7;
 }
 
-#pdf-container {
+/*#pdf-container {
   padding: 50px;
   margin-top: -68px;
   margin-left: 37px;
+}*/
+
+#pdf-container {
+  padding: 20%;
+  margin-top: -25%;
+  margin-left: 5%;
 }
 
 .arrow {
@@ -904,13 +914,13 @@ footer .fa-file-pdf-o {
 }
 .arrow-container {
   text-align: center;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: -30px;
+  margin-top: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
 }
 #about-arrow {
-  margin-left: 50px;
-  margin-bottom: -30px;
+  margin-left: 4%;
+  margin-bottom: -2%;
 }
 
 .up {
@@ -948,7 +958,7 @@ footer .fa-file-pdf-o {
 #footer-plane {
   display: inline-block;
   margin-top: 10%;
-  margin-left: 74%;
+  margin-left: 75%;
 }
 
 #footer-plane .plane {
@@ -969,4 +979,395 @@ footer .fa-file-pdf-o {
   display: block;
   width: 50%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-container {
+    margin-top: -3%;
+    margin-right: 0%;
+    display: block;
+  }
+
+  aside#contact-sidebar {
+    width: 100%;
+    margin-top: -20%;
+  }
+
+  #contact-container {
+    padding-left: 0%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+    margin-left: 8%;
+  }
+
+  .about-dark {
+    padding: 15px;
+    background: #a6c1ee;
+    color: white;
+    margin-top: -5%;
+  }
+
+  #boxes {
+    margin-top: 1%;
+    padding-left: 4%;
+  }
+
+  #boxes .box {
+    float: left;
+    width: 85%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  #boxes .double-line {
+    padding-bottom: 5%;
+    padding-left: 15%;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-device-width: 900px) {
+  #pdf-container {
+    display: none;
+  }
+
+  .mobile-container {
+    margin-top: -4%;
+    margin-right: 1%;
+    display: block;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 10%;
+  }
+
+  #contact #main-col-contact {
+    width: 40%;
+  }
+}
+
+/* iPad Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .mobile-container {
+    margin-top: -4%;
+    margin-right: 1%;
+    display: block;
+  }
+
+  .pdf-container {
+    display: none;
+  }
+
+  #contact .container {
+    margin-left: 8%;
+  }
+
+  aside#contact-sidebar {
+    float: left;
+    width: 70%;
+    padding-top: 15%;
+  }
+
+  #contact-container {
+    padding-left: 20%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+
+  .about-dark {
+    padding: 15px;
+    background: #a6c1ee;
+    color: white;
+    margin-top: -5%;
+  }
+
+  #boxes {
+    margin-top: 1%;
+    padding-left: 4%;
+  }
+
+  #boxes .box {
+    float: left;
+    width: 85%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  #boxes .double-line {
+    padding-bottom: 5%;
+    padding-left: 15%;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -25%;
+    margin-left: 4%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 10%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -25%;
+    margin-left: 3.5%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 15%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -25%;
+    margin-left: 3.5%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 15%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -25%;
+    margin-left: 2%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 15%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -25%;
+    margin-left: 4%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 35%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 10%;
+  }
+
+  #contact #main-col-contact {
+    width: 64%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -23%;
+    margin-left: 3%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 30%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -23%;
+    margin-left: 1%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 30%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -23%;
+    margin-left: -1%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 30%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -23%;
+    margin-left: -2%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 30%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  #pdf-container {
+    padding: 20%;
+    margin-top: -23%;
+    margin-left: -4%;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  aside#contact-sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  #contact-container {
+    padding-left: 30%;
+  }
+
+  #contact #main-col-contact {
+    width: 50%;
+  }
 }
