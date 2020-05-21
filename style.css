@@ -37,6 +37,15 @@ body {
   overflow: hidden;
 }
 
+#logo {
+  width: 5%;
+  margin: auto;
+}
+
+#logo:hover{
+  opacity: 0.7;
+}
+
 header ul {
   margin: 0;
   padding: 0;
@@ -48,18 +57,6 @@ header ul {
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.about-dark {
-  padding: 15px;
-  background: #a6c1ee;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.tools {
-  text-align: center;
 }
 
 /*Header*/
@@ -86,19 +83,17 @@ header #top {
 }
 
 header #top h1 {
-  margin: 10px;
   font-family: "Jost", sans-serif;
   font-size: 30px;
 }
 
 header nav {
   float: right;
-  margin-top: 10px;
+  margin-top: -4%;
   font-family: "Jost", sans-serif;
   text-transform: uppercase;
 }
 
-header .highlight,
 header .current a {
   font-weight: bold;
 }
@@ -176,13 +171,6 @@ a:visited {
   text-align: center;
 }
 
-#about .box {
-  float: left;
-  width: 30%;
-  padding: 10px;
-  text-align: center;
-}
-
 #boxes .box img {
   width: 200px;
 }
@@ -222,7 +210,6 @@ footer a {
   font-size: 16px;
 }
 
-footer .highlight,
 footer .current a {
   font-weight: bold;
 }
@@ -230,29 +217,6 @@ footer .current a {
 footer a:hover {
   color: #003366;
   font-weight: bold;
-}
-
-#resume {
-  font-weight: bold;
-  font-size: 30px;
-  text-align: left;
-}
-
-#resume a:hover {
-  color: #ffffff;
-  font-weight: bold;
-}
-
-#resume a:visited {
-  color: #003366;
-  text-decoration: none;
-}
-
-/*Sidebar*/
-aside#sidebar {
-  float: right;
-  width: 30%;
-  margin-top: 80px;
 }
 
 aside#about-sidebar {
@@ -362,7 +326,6 @@ article#main-col-contact {
   header nav,
   header nav li,
   article#main-col,
-  aside#sidebar,
   aside#about-sidebar {
     float: none;
     text-align: center;
@@ -376,6 +339,11 @@ article#main-col-contact {
 
   header h1 {
     padding: 5%;
+  }
+
+  #logo {
+    width: 10%;
+    padding-bottom: 5%;
   }
 
   header {
@@ -463,10 +431,6 @@ article#main-col-contact {
   #main-col-contact {
     text-align: center;
     padding-left: 17%;
-  }
-
-  #resume {
-    line-height: 1.6em;
   }
 
   aside#contact-sidebar {
@@ -630,7 +594,7 @@ article#main-col-contact {
   display: none;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style the accordion panel. */
 .panel {
   padding: 0 18px;
   background-color: #a6c1ee;
@@ -721,7 +685,6 @@ article#main-col-contact {
 }
 
 /* Animation */
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
@@ -749,7 +712,7 @@ article#main-col-contact {
     transform: translate3d(85px, 0, 0);
   }
 }
-/*Shrinking for mobile*/
+/*Wave shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
     height: 40px;
@@ -788,19 +751,7 @@ article#main-col-contact {
   color: #a6c1ee;
 }
 
-.fa-linkedin#icon-hover:hover {
-  background: #003366;
-  color: #a6c1ee;
-  opacity: 0.7;
-}
-
-.fa-github#icon-hover:hover {
-  background: #003366;
-  color: #a6c1ee;
-  opacity: 0.7;
-}
-
-.fa-file-pdf-o#icon-hover:hover {
+#icon-hover:hover {
   background: #003366;
   color: #a6c1ee;
   opacity: 0.7;
@@ -821,19 +772,7 @@ footer .fa-file-pdf-o {
   color: #a6c1ee;
 }
 
-.fa-linkedin#footer-hover:hover {
-  background: #ffffff;
-  color: #a6c1ee;
-  opacity: 0.7;
-}
-
-.fa-github#footer-hover:hover {
-  background: #ffffff;
-  color: #a6c1ee;
-  opacity: 0.7;
-}
-
-.fa-file-pdf-o#footer-hover:hover {
+#footer-hover:hover {
   background: #ffffff;
   color: #a6c1ee;
   opacity: 0.7;
@@ -865,30 +804,6 @@ footer .fa-file-pdf-o {
   background: #003366;
   color: #ffffff;
 }
-
-#contact-container .fa-linkedin#icon-hover:hover {
-  background: #003366;
-  color: #ffffff;
-  opacity: 0.7;
-}
-
-#contact-container .fa-github#icon-hover:hover {
-  background: #003366;
-  color: #ffffff;
-  opacity: 0.7;
-}
-
-#contact-container .fa-file-pdf-o#icon-hover:hover {
-  background: #003366;
-  color: #ffffff;
-  opacity: 0.7;
-}
-
-/*#pdf-container {
-  padding: 50px;
-  margin-top: -68px;
-  margin-left: 37px;
-}*/
 
 #pdf-container {
   padding: 20%;
@@ -922,12 +837,10 @@ footer .fa-file-pdf-o {
   margin-left: 4%;
   margin-bottom: -2%;
 }
-
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
-
 .arrow:hover {
   color: #003366;
   opacity: 0.7;
@@ -986,6 +899,11 @@ footer .fa-file-pdf-o {
     margin-top: -3%;
     margin-right: 0%;
     display: block;
+  }
+
+  #logo {
+    width: 10%;
+    padding-bottom: 5%;
   }
 
   aside#contact-sidebar {
@@ -1063,6 +981,11 @@ footer .fa-file-pdf-o {
     display: block;
   }
 
+  #logo {
+    width: 5%;
+    padding-bottom: 7%;
+  }
+
   .pdf-container {
     display: none;
   }
@@ -1112,11 +1035,17 @@ footer .fa-file-pdf-o {
   }
 }
 
+/*iPad Pro Portrait */
 @media only screen and (min-width: 1000px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   #pdf-container {
     padding: 20%;
     margin-top: -25%;
     margin-left: 4%;
+  }
+
+  #logo {
+    width: 5%;
+    margin: auto;
   }
 
   .mobile-container {
