@@ -652,8 +652,7 @@ article#main-col-contact {
 }
 
 #cloud-scroll {
-  background: url(http://9a2e1a2047765d2a004e-e6d2db425d8d4f2619e5cee56a48bcef.r55.cf2.rackcdn.com/clouds.png)
-    repeat-x;
+  background: url("./images/clouds.png") repeat-x;
   top: 0;
   left: 0;
   width: 100%;
@@ -881,7 +880,7 @@ footer .fa-file-pdf-o {
   opacity: 0.7;
 }
 
-.plane-hover{
+.plane-hover {
   width: 200px;
   margin: 0 auto;
 }
@@ -906,7 +905,8 @@ footer .fa-file-pdf-o {
   font-weight: bold;
 }
 
-.subtitle a:visited, a:link {
+.subtitle a:visited,
+a:link {
   color: #003366;
 }
 
