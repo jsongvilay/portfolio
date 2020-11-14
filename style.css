@@ -10,6 +10,7 @@ body {
   margin: 0;
   background-color: #ffffff;
   color: #003366;
+  text-rendering: optimizeLegibility;
 }
 
 #boxes {
@@ -245,6 +246,7 @@ li.mathly {
   height: 45px;
   padding-left: 51px;
   padding-top: 0px;
+  text-align: left;
 }
 
 li.aws {
@@ -300,6 +302,7 @@ li.unix {
   height: 54px;
   padding-left: 51px;
   padding-top: 7px;
+  text-align: left;
 }
 
 a.list-link {
@@ -905,10 +908,10 @@ footer .fa-file-pdf-o {
   font-weight: bold;
 }
 
-.subtitle a:visited,
+/* .subtitle a:visited,
 a:link {
   color: #003366;
-}
+} */
 
 .apsa-gif {
   display: block;
