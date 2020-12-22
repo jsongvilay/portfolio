@@ -488,9 +488,9 @@ article#main-col-contact {
 }
 
 .picture {
-  clip-path: circle(50% at 50% 50%);
-  width: 350px;
-  height: 350px;
+  clip-path: circle(47% at 50% 50%);
+  width: 55%;
+  height: 55%;
   display: block;
   margin: 0 auto;
 }
