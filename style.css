@@ -571,6 +571,13 @@ article#main-col-contact {
   box-shadow: 0 5px 15px #62bce0;
 }
 
+.active#mathly,
+.accordion#mathly:hover {
+  background-color: #007FFF;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #007FFF;
+}
+
 .active#astr,
 .accordion#astr:hover {
   background-color: #222222;
@@ -915,7 +922,13 @@ a:link {
 
 .apsa-gif {
   display: block;
-  width: 50%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.mathly-vid {
+  display: block;
+  width: 70%;
   margin: 0 auto;
 }
 
