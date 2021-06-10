@@ -283,6 +283,20 @@ li.nand {
   padding-top: 12px;
 }
 
+li.os {
+  background: url("../images/os-icon.png") no-repeat left top;
+  height: 54px;
+  padding-left: 51px;
+  padding-top: 12px;
+}
+
+li.uml {
+  background: url("../images/uml-icon.png") no-repeat left top;
+  height: 54px;
+  padding-left: 51px;
+  padding-top: 12px;
+}
+
 li.binary {
   background: url("../images/binary.png") no-repeat left top;
   height: 54px;
