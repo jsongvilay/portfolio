@@ -587,9 +587,9 @@ article#main-col-contact {
 
 .active#mathly,
 .accordion#mathly:hover {
-  background-color: #007FFF;
+  background-color: #8B5FFB;
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #007FFF;
+  box-shadow: 0 5px 15px #8B5FFB;
 }
 
 .active#astr,
@@ -992,6 +992,35 @@ a:link {
     width: 70%;
     text-align: center;
   }
+
+  li.os {
+    background: url("../images/os-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
+  
+  li.uml {
+    background: url("../images/uml-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
+
+  .accordion {
+    background-color: #a6c1ee;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-size: clamp(2rem, 2.4rem, 3.125rem);
+    transition: 0.4s;
+  }
 }
 
 @media only screen and (min-width: 800px) and (max-device-width: 900px) {
@@ -1017,6 +1046,20 @@ a:link {
 
   #contact #main-col-contact {
     width: 40%;
+  }
+
+  li.os {
+    background: url("../images/os-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
+  
+  li.uml {
+    background: url("../images/uml-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
   }
 }
 
@@ -1080,6 +1123,20 @@ a:link {
     width: 70%;
     text-align: center;
   }
+
+  li.os {
+    background: url("../images/os-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
+  
+  li.uml {
+    background: url("../images/uml-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
 }
 
 /*iPad Pro Portrait */
@@ -1111,6 +1168,20 @@ a:link {
 
   #contact #main-col-contact {
     width: 50%;
+  }
+
+  li.os {
+    background: url("../images/os-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
+  }
+  
+  li.uml {
+    background: url("../images/uml-icon.png") no-repeat left top;
+    height: 54px;
+    padding-top: 12px;
+    text-align: left;
   }
 }
 
