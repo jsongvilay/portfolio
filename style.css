@@ -222,6 +222,10 @@ aside#about-sidebar {
 	margin-top: 7%;
 }
 
+aside#about-sidebar h3 {
+	letter-spacing: 1px;
+}
+
 aside#contact-sidebar {
 	float: right;
 	width: 30%;
