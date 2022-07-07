@@ -462,6 +462,7 @@ footer .fa-linkedin {
 	background-image: linear-gradient(to top, #fbc2eb 0, #a6c1ee 100%);
 	width: 100%;
 	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 }
 #cloud-scroll {
 	background: url('./images/clouds.png') 0 0 / cover repeat-x;
