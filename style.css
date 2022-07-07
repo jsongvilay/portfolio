@@ -31,6 +31,9 @@ footer,
 header {
 	background: #a6c1ee;
 }
+ul {
+	padding-inline-start: 0;
+}
 body,
 header ul,
 ul.no-bullet {
@@ -230,7 +233,7 @@ footer {
 }
 footer li {
 	display: inline;
-	padding-right: 3%;
+	padding: 0 2%;
 }
 #about-sidebar {
 	flex-basis: 50%;
