@@ -205,9 +205,6 @@ a:visited {
 	text-align: center;
 }
 
-#boxes .double-line {
-}
-
 #boxes .box img {
 	width: 200px;
 }
@@ -376,9 +373,6 @@ a.list-link {
 	flex-direction: column;
 	/* margin-top: 50px; */
 	flex-basis: 50%;
-}
-
-#main-col-contact {
 }
 
 .picture {
@@ -733,9 +727,6 @@ footer .fa-file-pdf-o {
 	color: #a6c1ee;
 }
 
-#pdf-container {
-}
-
 .arrow {
 	border: solid #003366;
 	border-width: 0 7px 7px 0;
@@ -768,9 +759,6 @@ footer .fa-file-pdf-o {
 .arrow:hover {
 	color: #003366;
 	opacity: 0.7;
-}
-
-.mobile-container {
 }
 
 .link-icons {
