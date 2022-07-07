@@ -645,6 +645,9 @@ footer .fa-linkedin {
 		flex-direction: column;
 		gap: 0;
 	}
+	#banner {
+		height: 800px;
+	}
 }
 @media (max-width: 768px) {
 	.waves {
@@ -659,9 +662,6 @@ footer .fa-linkedin {
 	}
 	.container {
 		width: calc(100% - 2rem);
-	}
-	#banner {
-		height: 50vh;
 	}
 	header li {
 		padding: 0;
