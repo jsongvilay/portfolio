@@ -59,7 +59,7 @@ header #top h1 {
 .waves {
 	position: relative;
 }
-#footer-hover:hover,
+.footer-hover:hover,
 #logo:hover,
 .arrow:hover,
 .plane-hover:hover,
@@ -207,6 +207,7 @@ footer {
 }
 .portfolio-container {
 	padding: 20px;
+	margin-top: 1rem;
 	border: 1px solid #036;
 	background-color: #fff;
 }
@@ -346,6 +347,14 @@ li.unix {
 	border: none;
 	font-size: 50px;
 }
+.gh-btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#ds .panel {
+	padding: 20px;
+}
 .accordion#site {
 	border-radius: 0 0 16px 16px;
 }
@@ -404,11 +413,11 @@ li.unix {
 .fa-github#git-button {
 	background: 0 0;
 	color: #fff;
-	font-size: 45px;
+	font-size: 49px;
 	width: 100%;
 	text-align: center;
 	padding: 3px 0;
-	margin-right: 0;
+	margin-top: 9px;
 }
 .accordion#gh:hover {
 	background-color: #211f1f;
@@ -426,7 +435,7 @@ li.unix {
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
-#footer-hover:hover,
+.footer-hover:hover,
 footer .fa-file-pdf-o,
 footer .fa-github,
 footer .fa-linkedin {
@@ -568,7 +577,7 @@ footer .fa-linkedin {
 	margin: 0 auto;
 }
 .arrow,
-.arrow#boxes-arrow {
+.arrow.boxes-arrow {
 	border: solid #036;
 	border-width: 0 7px 7px 0;
 	display: inline-block;
