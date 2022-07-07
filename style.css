@@ -396,6 +396,8 @@ li.unix {
 	font-size: 45px;
 	width: 100%;
 	text-align: center;
+	padding: 3px 0;
+	margin-right: 0;
 }
 .accordion#gh:hover {
 	background-color: #211f1f;
