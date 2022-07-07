@@ -11,6 +11,17 @@ footer a,
 header a {
 	text-decoration: none;
 }
+
+#showcase a:visited,
+#showcase a:hover,
+#showcase a:focus,
+#footer-plane a:visited,
+#footer-plane a:hover,
+#footer-plane a:focus {
+	text-decoration: none;
+	color: #036;
+}
+
 #logo,
 #showcase p {
 	margin: auto;
@@ -520,8 +531,7 @@ footer .fa-linkedin {
 	background-color: #036;
 	color: #a6c1ee;
 }
-#icon-hover:hover {
-	color: #fff;
+.icon-hover:hover {
 	opacity: 0.7;
 }
 #contact .container {
@@ -597,6 +607,11 @@ footer .fa-linkedin {
 #footer-plane {
 	display: flex;
 	justify-content: center;
+	text-align: center;
+}
+#footer-plane p {
+	margin: 0;
+	font-weight: 700;
 }
 .subtitle {
 	display: block;
