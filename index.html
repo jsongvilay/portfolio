@@ -41,16 +41,41 @@
 		<header>
 			<div class="nav-container">
 				<div>
-					<a href="#top">
-						<img src="../images/JS.png" id="logo" alt="js-logo" width="50" />
+					<a href="#top" aria-label="Navigate back to the top of the page">
+						<img
+							src="../images/JS.png"
+							id="logo"
+							alt="Navigate back to top of the page"
+							width="50"
+						/>
 					</a>
 				</div>
 				<nav class="nav-items">
 					<ul class="main-links">
-						<li><a href="#top">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li>
+							<a href="#top" aria-label="Navigate back to the top of the page"
+								>Home</a
+							>
+						</li>
+						<li>
+							<a href="#about" aria-label="Navigate to the About Me section"
+								>About</a
+							>
+						</li>
+						<li>
+							<a
+								href="#portfolio"
+								aria-label="Navigate to the portfolio and projects section"
+								>Portfolio</a
+							>
+						</li>
+						<li>
+							<a
+								href="#contact"
+								aria-label="Navigate to the contact information section"
+								>Contact</a
+							>
+						</li>
 					</ul>
 					<div>
 						<div class="icon-container">
@@ -59,16 +84,19 @@
 									href="https://www.linkedin.com/in/jason-songvilay-746b45195/"
 									target="_blank"
 									class="fa fa-linkedin icon-hover"
+									aria-label="Open a new window to view my LinkedIn account"
 								></a>
 								<a
 									href="https://github.com/jsongvilay"
 									target="_blank"
 									class="fa fa-github icon-hover"
+									aria-label="Open a new window to view my GitHub account"
 								></a>
 								<a
 									href="../jason-songvilay-resume.pdf"
 									target="_blank"
 									class="fa fa-file-pdf-o icon-hover"
+									aria-label="Open a new window to view my resume as a PDF"
 								></a>
 							</div>
 						</div>
@@ -93,7 +121,7 @@
 							><img
 								class="plane"
 								src="./images/plane-landing-wheel.png"
-								alt="plane-to-explore"
+								alt="Explore the page and jump to the next section"
 						/></a>
 						<span class="subtitle"><a href="#boxes">EXPLORE</a></span>
 					</div>
@@ -103,24 +131,24 @@
 		<section id="boxes">
 			<div class="container">
 				<div class="box">
-					<img src="./images/code.png" alt="code" />
-					<h3>Proficiency</h3>
+					<img src="./images/code.png" alt="" />
+					<h2>Proficiency</h2>
 					<p class="double-line">
 						in Java, JavaScript (3+), React (3+)<br />
 						HTML/CSS (3+), Python (2+)
 					</p>
 				</div>
 				<div class="box">
-					<img src="./images/console.png" alt="console" />
-					<h3>Experience</h3>
+					<img src="./images/console.png" alt="" />
+					<h2>Experience</h2>
 					<p class="double-line">
 						using Visual Studio Code, GitHub,<br />
 						Sitecore CMS, Tealium, Figma
 					</p>
 				</div>
 				<div class="box">
-					<img src="./images/flexible.png" alt="flexible" />
-					<h3>Multiskilled</h3>
+					<img src="./images/flexible.png" alt="" />
+					<h2>Multiskilled</h2>
 					<p class="double-line">
 						with experience in software development<br />
 						and social media marketing
@@ -129,7 +157,9 @@
 			</div>
 		</section>
 		<div class="arrow-container">
-			<a href="#about"><i class="arrow down boxes-arrow"></i></a>
+			<a href="#about" aria-label="Jump to the About Me section"
+				><i class="arrow down boxes-arrow"></i
+			></a>
 		</div>
 		<section id="about">
 			<div class="container">
@@ -138,11 +168,11 @@
 						<img
 							class="picture"
 							src="./images/jasonv2.jpg"
-							alt="jason-songvilay-pic"
+							alt="Profile photo for Jason Songvilay"
 							width="315"
 						/>
 					</div>
-					<h1 class="page-title">About Me</h1>
+					<h2 class="page-title">About Me</h2>
 					<p>
 						Almost missed ya in the clouds up there but hello! My name is Jason
 						Songvilay and I am a graduate of San Diego State University with a
@@ -210,17 +240,22 @@
 			</div>
 		</section>
 		<div class="arrow-container" id="portfolio-arrow">
-			<a href="#portfolio"><i class="arrow down boxes-arrow"></i></a>
+			<a
+				href="#portfolio"
+				aria-label="Jump to the portfolio and projects section"
+				><i class="arrow down boxes-arrow"></i
+			></a>
 		</div>
 		<section id="portfolio">
 			<div class="container">
-				<h1 class="page-title-portfolio">Portfolio</h1>
+				<h2 class="page-title-portfolio">Portfolio</h2>
 				<div class="gh-btn-container">
 					<a
 						href="https://github.com/jsongvilay"
 						target="_blank"
 						class="accordion"
 						id="gh"
+						aria-label="Open a new window to view my GitHub projects"
 						><i class="fa fa-github" id="git-button"></i
 					></a>
 				</div>
@@ -441,17 +476,15 @@
 							><a href="https://www.apsasdsu.org/" target="_blank">
 								apsasdsu.org</a
 							>
-							<img
-								class="apsa-gif"
-								src="./images/apsasdsu-gif.gif"
-								alt="apsa"
-							/>
+							<img class="apsa-gif" src="./images/apsasdsu-gif.gif" alt="" />
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="arrow-container">
-				<a href="#contact"><i class="arrow down boxes-arrow"></i></a>
+				<a href="#contact" aria-label="Jump to the contact information section"
+					><i class="arrow down boxes-arrow"></i
+				></a>
 			</div>
 			<svg
 				class="waves"
@@ -493,7 +526,7 @@
 		<section id="contact">
 			<div class="container">
 				<div id="main-col-contact">
-					<h1 class="page-title">Connect With Me</h1>
+					<h2 class="page-title">Connect With Me</h2>
 					<p>
 						Looks like you've completed your descent! I hope you were able to
 						takeaway some insights about me and my works.<br />
@@ -514,16 +547,19 @@
 							href="https://www.linkedin.com/in/jason-songvilay-746b45195/"
 							target="_blank"
 							class="fa fa-linkedin icon-hover"
+							aria-label="Open a new window to view my LinkedIn account"
 						></a>
 						<a
 							href="https://github.com/jsongvilay"
 							target="_blank"
 							class="fa fa-github icon-hover"
+							aria-label="Open a new window to view my GitHub account"
 						></a>
 						<a
 							href="../jason-songvilay-resume.pdf"
 							target="_blank"
 							class="fa fa-file-pdf-o icon-hover"
+							aria-label="Open a new window to view my resume as a PDF"
 						></a>
 					</div>
 				</div>
@@ -534,7 +570,7 @@
 				><img
 					class="plane"
 					src="./images/plane-takeoff-wheel.png"
-					alt="plane-to-top"
+					alt="Go back to top of the page"
 				/>
 				<p>Back to top</p>
 			</a>
@@ -545,16 +581,19 @@
 					href="https://www.linkedin.com/in/jason-songvilay-746b45195/"
 					target="_blank"
 					class="fa fa-linkedin footer-hover"
+					aria-label="Open a new window to view my LinkedIn account"
 				></a>
 				<a
 					href="https://github.com/jsongvilay"
 					target="_blank"
 					class="fa fa-github footer-hover"
+					aria-label="Open a new window to view my GitHub account"
 				></a>
 				<a
 					href="../jason-songvilay-resume.pdf"
 					target="_blank"
 					class="fa fa-file-pdf-o footer-hover"
+					aria-label="Open a new window to view my resume as a PDF"
 				></a>
 				<ul>
 					<li><a href="#top">Home</a></li>
